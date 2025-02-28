@@ -1,6 +1,46 @@
 package JAVA_MLA.src.com.mla;
 
 import java.util.*;
+
+interface Inf{
+
+    void ShowData();
+}
+class Impl implements Inf{
+
+    String name;
+    String email;
+    String city;
+    String username;
+
+    public Impl(String n, String e, String c, String un){
+        this.name = n;
+        this.email = e;
+        this.city = c;
+        this.username = un;
+    }
+
+    @Override
+    public String toString() {
+        return "Impl{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", city='" + city + '\'' +
+                ", username='" + username + '\'' +
+                '}';
+    }
+
+    @Override
+    public void ShowData() {
+        System.out.println("Impl{" +
+                "name='" + this.name + '\'' +
+                ", email='" + this.email + '\'' +
+                ", city='" + this.city + '\'' +
+                ", username='" + this.username + '\'' +
+                '}');
+    }
+}
+
 public class Abstr
 {
     public static void  main(String[] sri)
@@ -9,10 +49,13 @@ public class Abstr
         Arrays.sort(arr);
         for (int i = arr.length - 1; i >= 0; i--) {
             System.out.print(arr[i] + " ");
+
+
         }
-        //even on left and odd on right side
-        int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int l=0, r=num.length;
+        System.out.println();
+
+        Impl obj = new Impl("Eswar","eswar@gmail.com","erode","eswar123");
+        obj.ShowData();
 
     }
 
