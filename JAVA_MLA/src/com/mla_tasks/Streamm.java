@@ -20,7 +20,12 @@ public class Streamm {
 		EmpList.add(new Employee(369,"Albedo",98,"male",2001,1000));
 		EmpList.add(new Employee(258,"Cooper",25,"male",2027,15000));
 		EmpList.add(new Employee(147,"julei",14,"female",2002,5600));
-		
+		EmpList.add(new Employee(665,"Azumth",99,"male",1999,90000));
+		EmpList.add(new Employee(391,"Vilgax",10,"female",2056,14000));
+		EmpList.add(new Employee(369,"Albedo",98,"male",2001,1000));
+		EmpList.add(new Employee(302,"Ben Tennyson",15,"male",2024,85000));
+		EmpList.add(new Employee(421,"Gwen Tennyson",13,"female",2025,750000));
+			
 		System.out.println("Entries as per the insertion order:");
 		EmpList.forEach(emp -> System.out.println(emp.toString()));
 		System.out.println("\n \nEntries as per the filter method (Employee Name ending with Tennyson):");
@@ -44,7 +49,18 @@ public class Streamm {
 
 		eList.forEach(emp -> System.out.println(emp.toString()));
 		
+		System.out.println("\n \nDistinct employee name");
+		List<String> names =  EmpList.stream().filter(emp -> !emp.getName().isEmpty()).map(e -> e.getName()).toList();
 		
+		names.stream().distinct().forEach(emp -> System.out.println(emp));
+		
+		
+		System.out.println("\n \nDuplicate employee name count");
+		int dup_count = (int) (names.stream().count() - names.stream().distinct().count());
+		System.out.println(dup_count);
+
+		
+
 		
 
 		
