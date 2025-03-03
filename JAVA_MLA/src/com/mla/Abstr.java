@@ -1,4 +1,4 @@
-package JAVA_MLA.src.com.mla;
+package com.mla;
 
 import java.util.*;
 
@@ -6,14 +6,14 @@ interface Inf{
 
     void ShowData();
 }
-class Impl implements Inf{
+class Imp1 implements Inf{
 
     String name;
     String email;
     String city;
     String username;
 
-    public Impl(String n, String e, String c, String un){
+    public Imp1(String n, String e, String c, String un){
         this.name = n;
         this.email = e;
         this.city = c;
@@ -49,7 +49,7 @@ public class Abstr
         System.out.println();
         System.out.println(weer[weer.length]);
 
-        Impl obj = new Impl("Eswar","eswar@gmail.com","erode","eswar123");
+        Imp1 obj = new Imp1("Eswar","eswar@gmail.com","erode","eswar123");
         obj.ShowData();
 
     }

@@ -30,7 +30,7 @@ public class Excutttor {
 		 	 exec.submit(task);
 		 	 exec.shutdown();
 		
-		Collection
+		
 		 
 	}
 }

@@ -24,6 +24,6 @@ public class PloyDemo {
 
 	Parent obj1 = new Child1();
 	Parent obj2  = new Child2();
-	obj1.draw();
-	obj2.draw();
+	//obj1.draw();
+	//obj2.draw();
 }

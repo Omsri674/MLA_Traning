@@ -1,4 +1,4 @@
-package JAVA_MLA.src.com.mla;
+package com.mla;
 import java.util.Scanner;
 import java.util.Arrays;
 public class sortingg {
