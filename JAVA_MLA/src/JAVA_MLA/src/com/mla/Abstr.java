@@ -20,15 +20,7 @@ class Impl implements Inf{
         this.username = un;
     }
 
-    @Override
-    public String toString() {
-        return "Impl{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", city='" + city + '\'' +
-                ", username='" + username + '\'' +
-                '}';
-    }
+   
 
     @Override
     public void ShowData() {
@@ -45,6 +37,8 @@ public class Abstr
 {
     public static void  main(String[] sri)
     {
+    	
+    	int[] weer = new int[45];
         int[] arr = {56, 23, 45, 67, 78, 98, 76, 54, 32, 21, 10};
         Arrays.sort(arr);
         for (int i = arr.length - 1; i >= 0; i--) {
@@ -53,6 +47,7 @@ public class Abstr
 
         }
         System.out.println();
+        System.out.println(weer[weer.length]);
 
         Impl obj = new Impl("Eswar","eswar@gmail.com","erode","eswar123");
         obj.ShowData();
