@@ -1,16 +1,17 @@
-package JAVA_MLA.src.com.mla_tasks;
+package com.mla_tasks;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Streamm2 {
-
+// to find the MaxOrd on year 2020
     public static void MaxOrd(List<Order> ord){
         Optional<Order> o = ord.stream().filter(f->f.getYear() == 2020).max(Comparator.comparing(Order::getQty));
         Order or = o.get();
         System.out.println(or.getQty());
     }
 
+   // sorting the orders based on the Category
     public static void SortedOrd(List<Order> ord){
         Map<String, Long> res = ord.stream().collect(Collectors.groupingBy(Order::getCategy,Collectors.counting()));
         res.forEach((k,v)-> System.out.println(k+" "+v));
@@ -21,19 +22,20 @@ public class Streamm2 {
         Order or = Oo.get();
         System.out.println(or.getName()+" "+or.getPrice());
     }
-
+//to find the Average spending of a user
      public static void AvgSpending(List<Order> ord){
         DoubleSummaryStatistics oStat = ord.stream().collect(Collectors.summarizingDouble(Order::getCost));
 
          System.out.println("Average Spending on the site: "+oStat.getAverage());
      }
 
+     // to find the minimum price of the order
      public static void MinPrice(List<Order> ord){
         Optional<Order> Oo = ord.stream().min(Comparator.comparing(Order::getPrice));
         Order or = Oo.get();
         System.out.println("Minimum Price: "+or.getName()+" "+or.getPrice());
      }
-
+// to find the first order
      public static void FirstOrder(List<Order> ord){
         Optional<Order> ordO = ord.stream().min(Comparator.comparing(Order::getYear).thenComparing(Order::getMonth));
         Order o = ordO.get();
@@ -66,7 +68,7 @@ public class Streamm2 {
         System.out.println("Maximum Price of the orders");
         Streamm2.MaxPrice(ordl);
 
-        System.out.println(     );
+        System.out.println( );
         Streamm2.AvgSpending(ordl);
 
         System.out.println();

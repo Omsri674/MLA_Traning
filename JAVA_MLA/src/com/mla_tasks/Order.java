@@ -1,4 +1,4 @@
-package JAVA_MLA.src.com.mla_tasks;
+package com.mla_tasks;
 
 public class Order {
     private int id;
