@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.test.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! -- in com.test.CalculatorTest
+com.test.CalculatorTest.TestAdd -- Time elapsed: 0.012 s <<< ERROR!
+java.lang.NullPointerException
+	at com.test.CalculatorTest.TestAdd(CalculatorTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+com.test.CalculatorTest.TestMul -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException
+	at com.test.CalculatorTest.TestMul(CalculatorTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+com.test.CalculatorTest.TestSub -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException
+	at com.test.CalculatorTest.TestSub(CalculatorTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+com.test.CalculatorTest.TestGreet -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException
+	at com.test.CalculatorTest.TestGreet(CalculatorTest.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+

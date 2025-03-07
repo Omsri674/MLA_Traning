@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.CalculatorTest" time="0.033" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\om.sounderrajan\Desktop\Workspace\MLA_JUNIT\target\test-classes;C:\Users\om.sounderrajan\Desktop\Workspace\MLA_JUNIT\target\classes;C:\Users\om.sounderrajan\.m2\repository\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar;C:\Users\om.sounderrajan\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;C:\Users\om.sounderrajan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\om.sounderrajan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\om.sounderrajan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.0\junit-jupiter-api-5.12.0.jar;C:\Users\om.sounderrajan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\om.sounderrajan\.m2\repository\org\junit\platform\junit-platform-commons\1.12.0\junit-platform-commons-1.12.0.jar;C:\Users\om.sounderrajan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-11.0.23.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\om.sounderrajan\AppData\Local\Temp\surefire12191610204012404768\surefirebooter-20250306114720858_3.jar C:\Users\om.sounderrajan\AppData\Local\Temp\surefire12191610204012404768 2025-03-06T11-47-20_411-jvmRun1 surefire-20250306114720858_1tmp surefire_0-20250306114720858_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\om.sounderrajan\Desktop\Workspace\MLA_JUNIT\target\test-classes;C:\Users\om.sounderrajan\Desktop\Workspace\MLA_JUNIT\target\classes;C:\Users\om.sounderrajan\.m2\repository\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar;C:\Users\om.sounderrajan\.m2\repository\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;C:\Users\om.sounderrajan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\om.sounderrajan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\om.sounderrajan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.0\junit-jupiter-api-5.12.0.jar;C:\Users\om.sounderrajan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\om.sounderrajan\.m2\repository\org\junit\platform\junit-platform-commons\1.12.0\junit-platform-commons-1.12.0.jar;C:\Users\om.sounderrajan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\om.sounderrajan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-11.0.23.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\om.sounderrajan\Desktop\Workspace\MLA_JUNIT"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\om.sounderrajan\AppData\Local\Temp\surefire12191610204012404768\surefirebooter-20250306114720858_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.23+9-LTS"/>
+    <property name="user.name" value="om.sounderrajan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-9394293"/>
+    <property name="localRepository" value="C:\Users\om.sounderrajan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\OM6EB1~1.SOU\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.23"/>
+    <property name="user.dir" value="C:\Users\om.sounderrajan\Desktop\Workspace\MLA_JUNIT"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-11.0.23.9-hotspot\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Users/om.sounderrajan/Downloads/sts-4.28.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin/server;C:/Users/om.sounderrajan/Downloads/sts-4.28.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin;C:\Program Files\Microsoft\jdk-17.0.12.7-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.23.9-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\om.sounderrajan\AppData\Local\Microsoft\WindowsApps;;C:\windows\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="11.0.23+9-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="TestAdd" classname="com.test.CalculatorTest" time="0.012">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at com.test.CalculatorTest.TestAdd(CalculatorTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+]]></error>
+    <system-out><![CDATA[BEFORE ALL THE TEST CASES ONLY ONE TIME
+excutes every test method after excution
+TestAdd Method
+excutees every test method before excution
+]]></system-out>
+  </testcase>
+  <testcase name="TestMul" classname="com.test.CalculatorTest" time="0.001">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at com.test.CalculatorTest.TestMul(CalculatorTest.java:55)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+]]></error>
+    <system-out><![CDATA[excutes every test method after excution
+TestMul Method
+excutees every test method before excution
+]]></system-out>
+  </testcase>
+  <testcase name="TestSub" classname="com.test.CalculatorTest" time="0.003">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at com.test.CalculatorTest.TestSub(CalculatorTest.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+]]></error>
+    <system-out><![CDATA[excutes every test method after excution
+TestSub Method
+excutees every test method before excution
+]]></system-out>
+  </testcase>
+  <testcase name="TestGreet" classname="com.test.CalculatorTest" time="0.0">
+    <error type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at com.test.CalculatorTest.TestGreet(CalculatorTest.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+]]></error>
+    <system-out><![CDATA[excutes every test method after excution
+TestGreet Method
+excutees every test method before excution
+]]></system-out>
+  </testcase>
+</testsuite>
